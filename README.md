@@ -1,2 +1,1 @@
-# ws
-Create website screenshots.
+# ws - website screenshot
