@@ -26,7 +26,8 @@ DRIVER.set_page_load_timeout(5)
 
 def screenshot(url) -> None:
     try: up = urllib.parse.urlparse(url)
-    except:
+    except Exception as e:
+        print(e)
         print(f'[ERROR] Failed to parse : {url}')
         return
     
